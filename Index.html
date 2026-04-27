@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muse & Mocha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <div class="logo-mark">☕</div>
+      <div>
+        <div class="logo-top">Muse &</div>
+        <div class="logo-bottom">MOCHA</div>
+      </div>
+    </div>
+
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#membership">Membership</a>
+      <a href="#book">Book a Seat</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="join-btn">Join Now</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Where ideas <span>brew.</span></h1>
+        <p>A cozy library café for dreamers, readers & creators.</p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn primary">Explore Menu</a>
+          <a href="#book" class="btn secondary">Book a Seat</a>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="mug"></div>
+        <div class="books books-1"></div>
+        <div class="books books-2"></div>
+        <div class="books books-3"></div>
+        <div class="vase"></div>
+      </div>
+      <div class="scroll-indicator">⌄</div>
+    </section>
+
+    <section class="intro section">
+      <div class="intro-grid">
+        <div class="intro-image"></div>
+
+        <div class="intro-copy">
+          <h2>More than a café.<br>It’s a muse.</h2>
+          <p>
+            At Muse & Mocha, books meet brews and imagination finds its home.
+            Whether you’re here to read, write, study or simply escape — you belong here.
+          </p>
+        </div>
+
+        <div class="intro-features">
+          <div class="feature">Quiet Reading Spaces</div>
+          <div class="feature">Curated Book Collection</div>
+          <div class="feature">Cozy Café Menu</div>
+          <div class="feature">Events & Creative Workshops</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section specials">
+      <h3 class="section-title">Our Specials</h3>
+      <div class="cards">
+        <article class="card">
+          <div class="card-img latte"></div>
+          <div class="card-body">
+            <h4>Athena’s Latte</h4>
+            <p>₹180</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img mocha"></div>
+          <div class="card-body">
+            <h4>Ninth Muse Mocha</h4>
+            <p>₹200</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img coldbrew"></div>
+          <div class="card-body">
+            <h4>Apollo Cold Brew</h4>
+            <p>₹180</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img brownie"></div>
+          <div class="card-body">
+            <h4>Muse Brownie</h4>
+            <p>₹120</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="membership" class="section plans">
+      <h3 class="section-title">Membership Plans</h3>
+      <div class="plans-grid">
+        <article class="plan">
+          <h4>Basic</h4>
+          <div class="price">₹4,999 <span>/ year</span></div>
+          <ul>
+            <li>20 hours/month access</li>
+            <li>5% café discount</li>
+          </ul>
+          <button>Choose Plan</button>
+        </article>
+
+        <article class="plan featured">
+          <div class="badge">Most Popular</div>
+          <h4>Standard</h4>
+          <div class="price">₹14,999 <span>/ 5 years</span></div>
+          <ul>
+            <li>50 hours/month access</li>
+            <li>10% café discount</li>
+            <li>Priority seating</li>
+          </ul>
+          <button>Choose Plan</button>
+        </article>
+
+        <article class="plan">
+          <h4>Premium</h4>
+          <div class="price">₹39,999 <span>/ lifetime</span></div>
+          <ul>
+            <li>Unlimited access</li>
+            <li>15% café discount</li>
+            <li>Reserved seating</li>
+            <li>1 free drink/month</li>
+          </ul>
+          <button>Choose Plan</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section muses">
+      <h3 class="section-title">The Nine Muses</h3>
+      <p class="section-subtitle">Inspiration in every form.</p>
+      <div class="muses-grid">
+        <div class="muse">Calliope<span>Epic Poetry</span></div>
+        <div class="muse">Clio<span>History</span></div>
+        <div class="muse">Erato<span>Love Poetry</span></div>
+        <div class="muse">Euterpe<span>Music</span></div>
+        <div class="muse">Melpomene<span>Tragedy</span></div>
+        <div class="muse">Polyhymnia<span>Sacred Hymns</span></div>
+        <div class="muse">Terpsichore<span>Dance</span></div>
+        <div class="muse">Thalia<span>Comedy</span></div>
+        <div class="muse">Urania<span>Astronomy</span></div>
+      </div>
+    </section>
+
+    <section id="book" class="section booking-contact">
+      <div class="booking">
+        <h3>Book Your Seat</h3>
+        <form id="bookingForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="date" required />
+          <input type="time" required />
+          <input type="number" placeholder="People" min="1" required />
+          <button type="submit" class="btn primary full">Book Now</button>
+        </form>
+      </div>
+
+      <div id="contact" class="contact">
+        <h3>Where to find us?</h3>
+        <p><strong>Muse & Mocha Café</strong><br>123 Bookworm Lane,<br>Your City, India</p>
+        <p>Open Daily<br>9:00 AM - 10:00 PM</p>
+        <p>+91 98765 43210<br>museandmocha@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <div class="logo">
+        <div class="logo-mark">☕</div>
+        <div>
+          <div class="logo-top">Muse &</div>
+          <div class="logo-bottom">MOCHA</div>
+        </div>
+      </div>
+      <p>Where ideas brew.</p>
+    </div>
+
+    <div>
+      <h5>Quick Links</h5>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#membership">Membership</a>
+      <a href="#book">Book a Seat</a>
+    </div>
+
+    <div>
+      <h5>Explore</h5>
+      <a href="#about">About Us</a>
+      <a href="#contact">Events</a>
+      <a href="#contact">Book Exchange</a>
+      <a href="#contact">FAQs</a>
+    </div>
+
+    <div>
+      <h5>Newsletter</h5>
+      <p>Stay updated with events, new books & offers!</p>
+      <div class="newsletter">
+        <input type="email" placeholder="Enter your email" />
+        <button>→</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
